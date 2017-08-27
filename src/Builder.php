@@ -55,4 +55,12 @@ class Builder
     {
         return uniqid('', true);
     }
+
+    /**
+     * @return string
+     */
+    public function getBoundary(): string
+    {
+        return $this->boundary;
+    }
 }
