@@ -5,8 +5,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.0.0",
-        "yoshi2889/collections": "^0.1",
-        "yoshi2889/validation-closures": "^0.1"
+        "yoshi2889/collections": "^0.1"
     },
     "autoload": {
         "psr-4": {

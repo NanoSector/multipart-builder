@@ -8,14 +8,15 @@
 
 namespace MultipartBuilder;
 
-
-use ValidationClosures\Types;
 use Yoshi2889\Collections\Collection;
 
 class DataCollection extends Collection
 {
     public function __construct(array $initialValues = [])
     {
-        parent::__construct(Types::instanceof(MultipartData::class), $initialValues);
+        parent::__construct(function ($value)
+        {
+            return $value instanceof MultipartData;
+        }, $initialValues);
     }
 }
