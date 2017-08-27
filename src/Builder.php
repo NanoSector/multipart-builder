@@ -26,6 +26,11 @@ class Builder
         $this->boundary = $boundary;
     }
 
+    public function append(MultipartData $data)
+    {
+        $this->getDataCollection()->append($data);
+    }
+
     /**
      * @return string|false false if no data was generated.
      */
@@ -62,5 +67,13 @@ class Builder
     public function getBoundary(): string
     {
         return $this->boundary;
+    }
+
+    /**
+     * @return DataCollection
+     */
+    public function getDataCollection(): DataCollection
+    {
+        return $this->dataCollection;
     }
 }
