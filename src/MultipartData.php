@@ -35,7 +35,7 @@ class MultipartData
      * @param string $contents
      * @param string $filename
      */
-    public function __construct(string $name, string $contents, string $filename, array $headers)
+    public function __construct(string $name, string $contents, string $filename = '', array $headers = [])
     {
         $this->name = $name;
         $this->headers = $headers;
