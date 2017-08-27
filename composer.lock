@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab85c4941a5d560688004d7d73925d77",
+    "content-hash": "153aba9a8a20f8030b0a165f0ca79803",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -93,47 +93,6 @@
             ],
             "description": "Simple Collection class allowing storage of specific data.",
             "time": "2017-08-23T13:21:21+00:00"
-        },
-        {
-            "name": "yoshi2889/validation-closures",
-            "version": "v0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoshi2889/validation-closures.git",
-                "reference": "f4290d1e0993df857a50c3672f5b1dd1bbee0d77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Yoshi2889/validation-closures/zipball/f4290d1e0993df857a50c3672f5b1dd1bbee0d77",
-                "reference": "f4290d1e0993df857a50c3672f5b1dd1bbee0d77",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ValidationClosures\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yoshi2889",
-                    "email": "rick.2889@gmail.com",
-                    "homepage": "https://nanosector.nl",
-                    "role": "Lead Developer"
-                }
-            ],
-            "description": "Closures useful for validating data. Provides type validation amongst other filters.",
-            "time": "2017-06-30T13:10:32+00:00"
         }
     ],
     "packages-dev": [
