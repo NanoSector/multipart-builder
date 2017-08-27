@@ -125,6 +125,6 @@ class ExtensionHelper
     {
         $extension = pathinfo($filename, PATHINFO_EXTENSION);
         $extension = strtolower($extension);
-        return !empty(self::$mimetypes[$extension]) ? self::$mimetypes[$extension] : null;
+        return !empty(self::$mimetypes[$extension]) ? self::$mimetypes[$extension] : '';
     }
 }
