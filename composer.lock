@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "153aba9a8a20f8030b0a165f0ca79803",
@@ -51,21 +51,21 @@
         },
         {
             "name": "yoshi2889/collections",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoshi2889/collections.git",
-                "reference": "a56a3d6446b8d0a29b0d1fa6c150e0d435fff85e"
+                "reference": "32d9531f66584bfae51c09c7a505db1ce5a559b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoshi2889/collections/zipball/a56a3d6446b8d0a29b0d1fa6c150e0d435fff85e",
-                "reference": "a56a3d6446b8d0a29b0d1fa6c150e0d435fff85e",
+                "url": "https://api.github.com/repos/Yoshi2889/collections/zipball/32d9531f66584bfae51c09c7a505db1ce5a559b0",
+                "reference": "32d9531f66584bfae51c09c7a505db1ce5a559b0",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "^3.0 || ^2.0",
-                "php": ">=7.1.0"
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.2"
@@ -92,7 +92,7 @@
                 }
             ],
             "description": "Simple Collection class allowing storage of specific data.",
-            "time": "2017-08-23T13:21:21+00:00"
+            "time": "2017-08-27T19:19:15+00:00"
         }
     ],
     "packages-dev": [
@@ -894,6 +894,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-08-03T14:08:16+00:00"
         },
         {
