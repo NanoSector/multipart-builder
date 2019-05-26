@@ -12,6 +12,11 @@
             "MultipartBuilder\\": "src/"
         }
     },
+    "config": {
+        "platform": {
+            "php": "7.0.0"
+        }
+    },
     "authors": [
         {
             "name": "Yoshi2889",
